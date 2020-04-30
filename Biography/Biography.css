@@ -1,0 +1,28 @@
+header{
+font-family: 'Rozha One', serif;
+font-style: italic;
+font-weight: bold;
+color: #3F6F75;
+text-align: center;
+font-size: 40px;
+}
+header a{
+font-family: 'Rozha One', serif;
+font-style: italic;
+font-weight: bold;
+color: #3F6F75;
+text-align: center;
+text-decoration: none;
+}
+header a:hover{
+font-family: 'Rozha One', serif;
+font-style: italic;
+font-weight: bold;
+color: #FFAD6D;
+text-align: center;
+text-decoration: none;
+}
+.tagline{
+  margin-left: 300px;
+  margin-right: 300px;
+}
