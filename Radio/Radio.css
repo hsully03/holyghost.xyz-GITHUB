@@ -1,0 +1,13 @@
+header{
+    width: 500px;
+    margin: auto;
+}
+.rframe{
+    display: inline-block;
+}   
+.chat {
+    display: inline-block;
+    width: 200px;
+}
+
+
