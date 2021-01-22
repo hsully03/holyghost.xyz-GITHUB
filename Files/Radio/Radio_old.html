@@ -29,23 +29,16 @@
     <div class="info">
         <p>New episodes every Wednesday</p>
     </div>
-      <div class="twitch">
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
-
-    <!-- Load the Twitch embed script -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 1000,
-        height: 480,
-        channel: "holyghostradio",
-        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-      });
-    </script>
-      </div>
+    <div class="rframe">
+      <iframe src="http://163.172.166.83:8080/player.html" name="restreamer-player" width="800" height="450" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">
+      </iframe>
+    </div>
+    <div class="chat">
+      <script src="https://www.shoutbox.com/chat/chat.js.php"></script>
+      <script> var chat = new Chat(15187); 
+        chat.traductions.mp3 = "";
+     </script>
+    </div>
   <footer>
     <img class="image" src="https://s3.us-east-2.amazonaws.com/holyghost.xyz/Images/LOGO/Logos/HGR.png">
     <p>&copy; 3000 by Holy Ghost!</p>
